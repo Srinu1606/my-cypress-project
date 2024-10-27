@@ -8,9 +8,12 @@ describe('Login Functionality', () => {
     });
 
     it('should log in successfully with valid credentials', () => {
-        login('blue', 'Master@1234'); //login user
+      cy.fixture('loginData').then((data) => {
+        const { username, password } = data.validUser
+        login(username,password); //login user
 
     });
+  })
 
    
 });
