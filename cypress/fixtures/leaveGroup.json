@@ -1,0 +1,16 @@
+{
+  "admin": {
+      "username": "rsmaster",
+      "password": "Rsmaster@123456",
+      "moduleName": "Leave Management",
+      "subModules": "Leave Groups",
+      "addNew": "Add New",
+      "leaveGroupName": "Automattttion leave group",
+      "reason":"Automation",
+      "submit" : "Submit",
+      "confirmBtn":"Confirm"
+
+
+     
+  }
+}
